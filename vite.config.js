@@ -10,7 +10,7 @@ export default defineConfig(({ command }) => {
 
   if (command !== 'serve') {
     // Modify base path for GitHub Pages deployment
-    config.base = '/YOUR_REPOSITORY_NAME/'
+    config.base = '/battery-technology-rubric/'
   }
 
   return config
